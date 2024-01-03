@@ -21,36 +21,36 @@
             <p class="mb-0">CEP: 87130-000 | Caixa Postal - 28</p>
             <p class="mb-0">Fone: (44) 3236-8000</p>
           </div>
-          <div class="col-12 col-md-6 col-lg-2 py-5 py-md-0 px-5 px-md-0">
+          <div class="col-12 col-md-6 col-lg-2 py-5 py-md-0 px-5 px-md-3">
             <label>PARA ESTUDANTES</label>
             <p class="mt-8 mb-8">
               Lorem ipsum dolor sit amet consectetur. Dignissim at ac lacus at
               eu iaculis. Iaculis id ut interdum elit ac imperdiet feugiat proin
               ornare.
             </p>
-            <a href="#" class="link-arrow">
+            <a href="estudantes" class="link-arrow">
               Ver mais
             </a>
           </div>
-          <div class="col-12 col-md-6 col-lg-2 py-5 py-md-0 px-5 px-md-0">
+          <div class="col-12 col-md-6 col-lg-2 py-5 py-md-0 px-5 px-md-3">
             <label>PARA EMPRESAS</label>
             <p class="mt-8 mb-8">
               Lorem ipsum dolor sit amet consectetur. Dignissim at ac lacus at
               eu iaculis. Iaculis id ut interdum elit ac imperdiet feugiat proin
               ornare.
             </p>
-            <a href="#" class="link-arrow">
+            <a href="empresas" class="link-arrow">
               Ver mais
             </a>
           </div>
-          <div class="col-12 col-md-6 col-lg-2 py-5 py-md-0 px-5 px-md-0">
+          <div class="col-12 col-md-6 col-lg-2 py-5 py-md-0 px-5 px-md-3">
             <label>PARA INSTITUIÇÕES</label>
             <p class="mt-8 mb-8">
               Lorem ipsum dolor sit amet consectetur. Dignissim at ac lacus at
               eu iaculis. Iaculis id ut interdum elit ac imperdiet feugiat proin
               ornare.
             </p>
-            <a href="#" class="link-arrow">
+            <a href="instituicoes" class="link-arrow">
               Ver mais
             </a>
           </div>

@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Nós, na Indústria Criativa, oferecemos serviços educacionais e assessoria profissional a instituições públicas e privadas. Conheça mais em nosso site.">
     <title><?= $title; ?></title>
     <link
       rel="icon"
@@ -25,15 +26,12 @@
     <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="pattern">
-      <div class="strip-header"></div>
-    </div>
     <div class="header">
       <header class="menu d-flex align-items-center">
         <nav class="container-fluid container-xxl px-lg-5">
           <div class="row align-items-center my-4">
-            <div class="col col-lg-3 text-center text-xl-start my-2 my-xl-0">
-              <a href="/">
+            <div class="col col-md-auto text-center text-xl-start my-2 my-xl-0">
+              <a href="home">
                 <img
                   src="./img/logo-menu.svg"
                   class="img-fluid mt-n3"
@@ -41,7 +39,7 @@
                 />
               </a>
             </div>
-            <div class="col-12 col-md-9 col-xl-6 my-2 my-xl-0">
+            <div class="col-12 col-lg my-2 my-xl-0">
               <form>
                 <div class="input-group">
                   <input
@@ -68,12 +66,12 @@
                 </div>
               </form>
             </div>
-            <div class="col-6 col-lg px-lg-0 text-center my-2 my-xl-0">
+            <div class="col-6 col-lg-auto text-center my-2 my-xl-0">
               <button class="btn w-100 btn-outline-white px-xl-4" type="button">
                 PLATAFORMA
               </button>
             </div>
-            <div class="col-6 col-lg text-center my-2 my-xl-0">
+            <div class="col-6 col-lg-auto text-center my-2 my-xl-0">
               <button class="btn w-100 btn-theme px-xl-4" type="button">
                 INSCREVA-SE
               </button>
@@ -85,19 +83,19 @@
         class="nav justify-content-center align-content-center sub-menu py-3 py-xl-0"
       >
         <li class="nav-item px-0 px-lg-3">
-          <a class="nav-link" href="#">SAÚDE</a>
+          <a class="nav-link" href="saude">SAÚDE</a>
         </li>
         <li class="nav-item px-0 px-lg-3">
-          <a class="nav-link" href="#">NEGÓCIOS</a>
+          <a class="nav-link" href="negocios">NEGÓCIOS</a>
         </li>
         <li class="nav-item px-0 px-lg-3">
-          <a class="nav-link" href="#">EDUCAÇÃO</a>
+          <a class="nav-link" href="educacao">EDUCAÇÃO</a>
         </li>
         <li class="nav-item px-0 px-lg-3">
-          <a class="nav-link" href="#">TECNOLOGIA</a>
+          <a class="nav-link" href="tecnologia">TECNOLOGIA</a>
         </li>
         <li class="nav-item px-0 px-lg-3">
-          <a class="nav-link" href="#">TEOLOGIA</a>
+          <a class="nav-link" href="teologia">TEOLOGIA</a>
         </li>
       </ul>
     </div>

@@ -1,0 +1,23 @@
+CRITICAL - 2023-12-28 15:32:27 --> Uncaught ErrorException: Undefined variable $title in /Applications/MAMP/htdocs/sevenpro/app/Views/templates/header.php:8
+Stack trace:
+#0 /Applications/MAMP/htdocs/sevenpro/app/Views/templates/header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 8)
+#1 /Applications/MAMP/htdocs/sevenpro/vendor/codeigniter4/framework/system/View/View.php(226): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/sevenpro/vendor/codeigniter4/framework/system/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/sevenpro/vendor/codeigniter4/framework/system/Common.php(1188): CodeIgniter\View\View->render('/templates/head...', Array, true)
+#4 /Applications/MAMP/htdocs/sevenpro/app/Views/errors/html/error_404.php(3): view('/templates/head...')
+#5 /Applications/MAMP/htdocs/sevenpro/vendor/codeigniter4/framework/system/Debug/BaseExceptionHandler.php(241): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/sevenpro/vendor/codeigniter4/framework/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#7 /Applications/MAMP/htdocs/sevenpro/vendor/codeigniter4/framework/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, '/Applications/M...')
+#8 /Applications/MAMP/htdocs/sevenpro/vendor/codeigniter4/framework/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#10 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Page Not Found
+#0 /Applications/MAMP/htdocs/sevenpro/vendor/codeigniter4/framework/system/CodeIgniter.php(966): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(NULL)
+#1 /Applications/MAMP/htdocs/sevenpro/vendor/codeigniter4/framework/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 /Applications/MAMP/htdocs/sevenpro/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH/Views/templates/header.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

@@ -1,3 +1,6 @@
+<div class="pattern">
+  <div class="strip-header"></div>
+</div>
 <section class="section-header">
   <div class="container-fluid container-xxl px-md-5">
     <div class="row">
@@ -5,10 +8,10 @@
         <h1 class="mt-86">
           Conhecimento que <p class="contrast">TRANSFORMA</p>
         </h1>
-        <img src="./img/logo-menu.svg" alt="" class="img-fluid mt-64 d-none d-md-block" />
+        <img src="./img/logo-menu.svg" alt="Logo Menu" class="img-fluid mt-64 d-none d-md-block" />
       </div>
       <div class="col-12 col-md-6 d-none d-md-flex justify-content-center">
-        <img src="./img/estudante.png" alt="" class="img-fluid man-header mt-16" />
+        <img src="./img/estudante.webp" alt="Estudante apresentando" class="img-fluid man-header mt-16" />
       </div>
     </div>
   </div>
@@ -71,9 +74,11 @@
           <div class="swiper-button-prev nossos-cursos-btn-prev"></div>
           <div class="swiper-button-next nossos-cursos-btn-next"></div>
         </div>
-        <button class="btn btn-theme px-xl-4 mt-48 mx-auto d-block" type="button">
-          VER TODOS OS CURSOS
-        </button>
+        <div class="d-flex justify-content-center">
+          <a href="todos-cursos" class="btn btn-theme mt-48">
+            VER TODOS OS CURSOS
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -102,7 +107,7 @@
         <div class="col-12 col-md border-accordion-button">
           <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInCompany" aria-expanded="false" aria-controls="collapseInCompany">
-              CURSOS<em>&nbsp;IN COMPANY</em>
+              <p class="mb-0">CURSOS <em>IN COMPANY</em></p>
             </button>
           </h2>
         </div>
@@ -120,7 +125,7 @@
             </div>
             <div class="row mt-40">
               <div class="col-12 col-md-4">
-                <a href="" class="button-courses">
+                <a href="gestao-em-saude" class="button-courses">
                   <label>GESTÃO EM SAÚDE</label>
                   <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1.55556 14.5C1.12778 14.5 0.761445 14.3476 0.456557 14.0427C0.151668 13.7378 -0.000517198 13.3717 1.32051e-06 12.9444V2.05556C1.32051e-06 1.62778 0.152446 1.26145 0.457335 0.956557C0.762223 0.651668 1.1283 0.499483 1.55556 0.500001H7V2.05556H1.55556V12.9444H12.4444V7.5H14V12.9444C14 13.3722 13.8476 13.7386 13.5427 14.0434C13.2378 14.3483 12.8717 14.5005 12.4444 14.5H1.55556ZM5.21111 10.3778L4.12222 9.28889L11.3556 2.05556H8.55556V0.500001H14V5.94444H12.4444V3.14445L5.21111 10.3778Z" fill="#6CB876"/>
@@ -128,7 +133,7 @@
                 </a>
               </div>
               <div class="col-12 col-md-4">
-                <a href="" class="button-courses">
+                <a href="gestao-em-saude" class="button-courses">
                   <label>GESTÃO EM SAÚDE</label>
                   <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1.55556 14.5C1.12778 14.5 0.761445 14.3476 0.456557 14.0427C0.151668 13.7378 -0.000517198 13.3717 1.32051e-06 12.9444V2.05556C1.32051e-06 1.62778 0.152446 1.26145 0.457335 0.956557C0.762223 0.651668 1.1283 0.499483 1.55556 0.500001H7V2.05556H1.55556V12.9444H12.4444V7.5H14V12.9444C14 13.3722 13.8476 13.7386 13.5427 14.0434C13.2378 14.3483 12.8717 14.5005 12.4444 14.5H1.55556ZM5.21111 10.3778L4.12222 9.28889L11.3556 2.05556H8.55556V0.500001H14V5.94444H12.4444V3.14445L5.21111 10.3778Z" fill="#6CB876"/>
@@ -136,7 +141,7 @@
                 </a>
               </div>
               <div class="col-12 col-md-4">
-                <a href="" class="button-courses">
+                <a href="gestao-em-saude" class="button-courses">
                   <label>GESTÃO EM SAÚDE</label>
                   <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1.55556 14.5C1.12778 14.5 0.761445 14.3476 0.456557 14.0427C0.151668 13.7378 -0.000517198 13.3717 1.32051e-06 12.9444V2.05556C1.32051e-06 1.62778 0.152446 1.26145 0.457335 0.956557C0.762223 0.651668 1.1283 0.499483 1.55556 0.500001H7V2.05556H1.55556V12.9444H12.4444V7.5H14V12.9444C14 13.3722 13.8476 13.7386 13.5427 14.0434C13.2378 14.3483 12.8717 14.5005 12.4444 14.5H1.55556ZM5.21111 10.3778L4.12222 9.28889L11.3556 2.05556H8.55556V0.500001H14V5.94444H12.4444V3.14445L5.21111 10.3778Z" fill="#6CB876"/>
@@ -144,7 +149,7 @@
                 </a>
               </div>
               <div class="col-12 col-md-4">
-                <a href="" class="button-courses">
+                <a href="gestao-em-saude" class="button-courses">
                   <label>GESTÃO EM SAÚDE</label>
                   <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1.55556 14.5C1.12778 14.5 0.761445 14.3476 0.456557 14.0427C0.151668 13.7378 -0.000517198 13.3717 1.32051e-06 12.9444V2.05556C1.32051e-06 1.62778 0.152446 1.26145 0.457335 0.956557C0.762223 0.651668 1.1283 0.499483 1.55556 0.500001H7V2.05556H1.55556V12.9444H12.4444V7.5H14V12.9444C14 13.3722 13.8476 13.7386 13.5427 14.0434C13.2378 14.3483 12.8717 14.5005 12.4444 14.5H1.55556ZM5.21111 10.3778L4.12222 9.28889L11.3556 2.05556H8.55556V0.500001H14V5.94444H12.4444V3.14445L5.21111 10.3778Z" fill="#6CB876"/>
@@ -152,7 +157,7 @@
                 </a>
               </div>
               <div class="col-12 col-md-4">
-                <a href="" class="button-courses">
+                <a href="gestao-em-saude" class="button-courses">
                   <label>GESTÃO EM SAÚDE</label>
                   <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1.55556 14.5C1.12778 14.5 0.761445 14.3476 0.456557 14.0427C0.151668 13.7378 -0.000517198 13.3717 1.32051e-06 12.9444V2.05556C1.32051e-06 1.62778 0.152446 1.26145 0.457335 0.956557C0.762223 0.651668 1.1283 0.499483 1.55556 0.500001H7V2.05556H1.55556V12.9444H12.4444V7.5H14V12.9444C14 13.3722 13.8476 13.7386 13.5427 14.0434C13.2378 14.3483 12.8717 14.5005 12.4444 14.5H1.55556ZM5.21111 10.3778L4.12222 9.28889L11.3556 2.05556H8.55556V0.500001H14V5.94444H12.4444V3.14445L5.21111 10.3778Z" fill="#6CB876"/>
@@ -160,7 +165,7 @@
                 </a>
               </div>
               <div class="col-12 col-md-4">
-                <a href="" class="button-courses">
+                <a href="gestao-em-saude" class="button-courses">
                   <label>GESTÃO EM SAÚDE</label>
                   <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1.55556 14.5C1.12778 14.5 0.761445 14.3476 0.456557 14.0427C0.151668 13.7378 -0.000517198 13.3717 1.32051e-06 12.9444V2.05556C1.32051e-06 1.62778 0.152446 1.26145 0.457335 0.956557C0.762223 0.651668 1.1283 0.499483 1.55556 0.500001H7V2.05556H1.55556V12.9444H12.4444V7.5H14V12.9444C14 13.3722 13.8476 13.7386 13.5427 14.0434C13.2378 14.3483 12.8717 14.5005 12.4444 14.5H1.55556ZM5.21111 10.3778L4.12222 9.28889L11.3556 2.05556H8.55556V0.500001H14V5.94444H12.4444V3.14445L5.21111 10.3778Z" fill="#6CB876"/>
@@ -184,7 +189,7 @@
             </div>
             <div class="row mt-40">
               <div class="col-12 col-md-4">
-                <a href="" class="button-courses">
+                <a href="gestao-em-saude" class="button-courses">
                   <label>GESTÃO EM SAÚDE</label>
                   <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1.55556 14.5C1.12778 14.5 0.761445 14.3476 0.456557 14.0427C0.151668 13.7378 -0.000517198 13.3717 1.32051e-06 12.9444V2.05556C1.32051e-06 1.62778 0.152446 1.26145 0.457335 0.956557C0.762223 0.651668 1.1283 0.499483 1.55556 0.500001H7V2.05556H1.55556V12.9444H12.4444V7.5H14V12.9444C14 13.3722 13.8476 13.7386 13.5427 14.0434C13.2378 14.3483 12.8717 14.5005 12.4444 14.5H1.55556ZM5.21111 10.3778L4.12222 9.28889L11.3556 2.05556H8.55556V0.500001H14V5.94444H12.4444V3.14445L5.21111 10.3778Z" fill="#6CB876"/>
@@ -310,28 +315,28 @@
     <div class="row">
       <div class="col-12 col-md-3 py-5 py-md-0 text-center d-flex flex-column align-items-center">
         <div class="icon-round d-flex justify-content-center align-items-center">
-          <img src="./img/icons/school-online.svg" class="img-fluid" alt="">
+          <img src="./img/icons/school-online.svg" class="img-fluid" alt="100% online">
         </div>
         <label for="" class="label-card-icon text-center mt-24">100% online</label>
         <p class="mt-16 mx-2 mb-0">Lorem ipsum dolor sit amet consectetur. Dignissim at ac lacus at eu iaculis. Iaculis id ut interdum elit ac imperdiet feugiat proin ornare</p>
       </div>
       <div class="col-12 col-md-3 py-5 py-md-0 text-center d-flex flex-column align-items-center">
         <div class="icon-round d-flex justify-content-center align-items-center">
-          <img src="./img/icons/table-clock.svg" class="img-fluid" alt="">
+          <img src="./img/icons/table-clock.svg" class="img-fluid" alt="Prazos Flexíveis">
         </div>
         <label for="" class="label-card-icon text-center mt-24">Prazos flexíveis</label>
         <p class="mt-16 mx-2 mb-0">Lorem ipsum dolor sit amet consectetur. Dignissim at ac lacus at eu iaculis. Iaculis id ut interdum elit ac imperdiet feugiat proin ornare</p>
       </div>
       <div class="col-12 col-md-3 py-5 py-md-0 text-center d-flex flex-column align-items-center">
         <div class="icon-round d-flex justify-content-center align-items-center">
-          <img src="./img/icons/clock-fast.svg" class="img-fluid" alt="">
+          <img src="./img/icons/clock-fast.svg" class="img-fluid" alt="Cursos rápidos">
         </div>
         <label for="" class="label-card-icon text-center mt-24">Cursos rápidos</label>
         <p class="mt-16 mx-2 mb-0">Lorem ipsum dolor sit amet consectetur. Dignissim at ac lacus at eu iaculis. Iaculis id ut interdum elit ac imperdiet feugiat proin ornare</p>
       </div>
       <div class="col-12 col-md-3 py-5 py-md-0 text-center d-flex flex-column align-items-center">
         <div class="icon-round d-flex justify-content-center align-items-center">
-          <img src="./img/icons/certificate-outline.svg" class="img-fluid" alt="">
+          <img src="./img/icons/certificate-outline.svg" class="img-fluid" alt="Certificados">
         </div>
         <label for="" class="label-card-icon text-center mt-24">Certificados</label>
         <p class="mt-16 mx-2 mb-0">Lorem ipsum dolor sit amet consectetur. Dignissim at ac lacus at eu iaculis. Iaculis id ut interdum elit ac imperdiet feugiat proin ornare</p>
@@ -359,43 +364,43 @@
           </div>
           <div class="swiper-wrapper mt-40">
             <div class="swiper-slide swiper-cursos-area">
-              <img src="./img/img-card-area/card-saude.png" class="img-fluid" alt="">
+              <img src="./img/img-card-area/card-saude.webp" class="img-fluid" alt="Saúde">
               <div class="title-card">
                 <label>Saúde</label>
                 <p>Lorem ipsum dolor sit amet consectetur. Dignissim at ac lacus at eu iaculis. Iaculis id ut interdum elit ac imperdiet feugiat proin ornare</p>
-                <a href="" class="link-chevron">Saiba mais</a>
+                <a href="saude" class="link-chevron">Saiba mais</a>
               </div>
             </div>
             <div class="swiper-slide swiper-cursos-area">
-              <img src="./img/img-card-area/card-tecnologia.png" class="img-fluid" alt="">
+              <img src="./img/img-card-area/card-tecnologia.webp" class="img-fluid" alt="Tecnologia">
               <div class="title-card">
                 <label>Tecnologia</label>
                 <p>Lorem ipsum dolor sit amet consectetur. Dignissim at ac lacus at eu iaculis. Iaculis id ut interdum elit ac imperdiet feugiat proin ornare</p>
-                <a href="" class="link-chevron">Saiba mais</a>
+                <a href="tecnologia" class="link-chevron">Saiba mais</a>
               </div>
             </div>
             <div class="swiper-slide swiper-cursos-area">
-              <img src="./img/img-card-area/card-negocios.png" class="img-fluid" alt="">
+              <img src="./img/img-card-area/card-negocios.webp" class="img-fluid" alt="Negócios">
               <div class="title-card">
                 <label>Negócios</label>
                 <p>Lorem ipsum dolor sit amet consectetur. Dignissim at ac lacus at eu iaculis. Iaculis id ut interdum elit ac imperdiet feugiat proin ornare</p>
-                <a href="" class="link-chevron">Saiba mais</a>
+                <a href="negocios" class="link-chevron">Saiba mais</a>
               </div>
             </div>
             <div class="swiper-slide swiper-cursos-area">
-              <img src="./img/img-card-area/card-comunicacao.png" class="img-fluid" alt="">
+              <img src="./img/img-card-area/card-comunicacao.webp" class="img-fluid" alt="Comunicação">
               <div class="title-card">
                 <label>Comunicação</label>
                 <p>Lorem ipsum dolor sit amet consectetur. Dignissim at ac lacus at eu iaculis. Iaculis id ut interdum elit ac imperdiet feugiat proin ornare</p>
-                <a href="" class="link-chevron">Saiba mais</a>
+                <a href="comunicacao" class="link-chevron">Saiba mais</a>
               </div>
             </div>
             <div class="swiper-slide swiper-cursos-area">
-              <img src="./img/img-card-area/card-saude.png" class="img-fluid" alt="">
+              <img src="./img/img-card-area/card-saude.webp" class="img-fluid" alt="Saúde">
               <div class="title-card">
                 <label>Saúde</label>
                 <p>Lorem ipsum dolor sit amet consectetur. Dignissim at ac lacus at eu iaculis. Iaculis id ut interdum elit ac imperdiet feugiat proin ornare</p>
-                <a href="" class="link-chevron">Saiba mais</a>
+                <a href="saude" class="link-chevron">Saiba mais</a>
               </div>
             </div>
           </div>
@@ -441,12 +446,12 @@
                 <div class="line-title"></div>
                 <h2>PARA ESTUDANTES</h2>
                 <p>Lorem ipsum dolor sit amet consectetur. Nunc venenatis id ornare etiam sodales sed lobortis amet. Felis arcu cursus fusce integer tincidunt. Scelerisque pellentesque pellentesque sagittis volutpat. Erat nisi non tristique viverra egestas quam arcu. Mi duis phasellus enim purus fringilla risus semper. Aliquet quis aliquam id vestibulum in nisi congue nec sapien.</p>
-                <button class="btn btn-theme mt-24 d-block" type="button">
+                <a href="estudantes" class="btn btn-theme mt-24">
                   VER MAIS
                   <svg width="14" height="15" class="ml-8" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.55556 14.5C1.12778 14.5 0.761445 14.3476 0.456557 14.0427C0.151668 13.7378 -0.000517198 13.3717 1.32051e-06 12.9444V2.05556C1.32051e-06 1.62778 0.152446 1.26145 0.457335 0.956557C0.762223 0.651668 1.1283 0.499483 1.55556 0.500001H7V2.05556H1.55556V12.9444H12.4444V7.5H14V12.9444C14 13.3722 13.8476 13.7386 13.5427 14.0434C13.2378 14.3483 12.8717 14.5005 12.4444 14.5H1.55556ZM5.21111 10.3778L4.12222 9.28889L11.3556 2.05556H8.55556V0.500001H14V5.94444H12.4444V3.14445L5.21111 10.3778Z" fill="#001514"/>
                   </svg>
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -460,12 +465,12 @@
                 <div class="line-title"></div>
                 <h2>PARA EMPRESAS</h2>
                 <p>Lorem ipsum dolor sit amet consectetur. Nunc venenatis id ornare etiam sodales sed lobortis amet. Felis arcu cursus fusce integer tincidunt. Scelerisque pellentesque pellentesque sagittis volutpat. Erat nisi non tristique viverra egestas quam arcu. Mi duis phasellus enim purus fringilla risus semper. Aliquet quis aliquam id vestibulum in nisi congue nec sapien.</p>
-                <button class="btn btn-theme mt-24 d-block" type="button">
+                <a href="empresas" class="btn btn-theme mt-24">
                   VER MAIS
                   <svg width="14" height="15" class="ml-8" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.55556 14.5C1.12778 14.5 0.761445 14.3476 0.456557 14.0427C0.151668 13.7378 -0.000517198 13.3717 1.32051e-06 12.9444V2.05556C1.32051e-06 1.62778 0.152446 1.26145 0.457335 0.956557C0.762223 0.651668 1.1283 0.499483 1.55556 0.500001H7V2.05556H1.55556V12.9444H12.4444V7.5H14V12.9444C14 13.3722 13.8476 13.7386 13.5427 14.0434C13.2378 14.3483 12.8717 14.5005 12.4444 14.5H1.55556ZM5.21111 10.3778L4.12222 9.28889L11.3556 2.05556H8.55556V0.500001H14V5.94444H12.4444V3.14445L5.21111 10.3778Z" fill="#001514"/>
                   </svg>
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -479,12 +484,12 @@
                 <div class="line-title"></div>
                 <h2>PARA INSTITUIÇÕES</h2>
                 <p>Lorem ipsum dolor sit amet consectetur. Nunc venenatis id ornare etiam sodales sed lobortis amet. Felis arcu cursus fusce integer tincidunt. Scelerisque pellentesque pellentesque sagittis volutpat. Erat nisi non tristique viverra egestas quam arcu. Mi duis phasellus enim purus fringilla risus semper. Aliquet quis aliquam id vestibulum in nisi congue nec sapien.</p>
-                <button class="btn btn-theme mt-24 d-block" type="button">
+                <a href="instituicoes" class="btn btn-theme mt-24">
                   VER MAIS
                   <svg width="14" height="15" class="ml-8" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.55556 14.5C1.12778 14.5 0.761445 14.3476 0.456557 14.0427C0.151668 13.7378 -0.000517198 13.3717 1.32051e-06 12.9444V2.05556C1.32051e-06 1.62778 0.152446 1.26145 0.457335 0.956557C0.762223 0.651668 1.1283 0.499483 1.55556 0.500001H7V2.05556H1.55556V12.9444H12.4444V7.5H14V12.9444C14 13.3722 13.8476 13.7386 13.5427 14.0434C13.2378 14.3483 12.8717 14.5005 12.4444 14.5H1.55556ZM5.21111 10.3778L4.12222 9.28889L11.3556 2.05556H8.55556V0.500001H14V5.94444H12.4444V3.14445L5.21111 10.3778Z" fill="#001514"/>
                   </svg>
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -615,7 +620,7 @@
         </div>
         <div class="col-12 col-md-3 py-4 py-md-0">
           <input type="checkbox" class="btn-check" id="btn-check-company" autocomplete="off">
-          <label class="btn btn-outline-white w-100" for="btn-check-company">CURSOS <em>IN COMPANY</em></label>
+          <label class="btn btn-outline-white" for="btn-check-company">CURSOS <em>IN COMPANY</em></label>
         </div>
         <div class="col-1 d-none d-md-block"></div>
         <div class="col-12">
@@ -633,7 +638,7 @@
           <div class="align-self-center px-5">
             <p class="title-theme-app">WhatsApp</p>
             <p>Precisa falar com a gente?</p>
-            <button class="btn btn-theme mt-8"><img src="./img/icons/whats.svg" class="mr-8" alt=""> ENTRE EM CONTATO</button>
+            <button class="btn btn-theme mt-8"><img src="./img/icons/whats.svg" class="mr-8" alt="Whatsapp"> ENTRE EM CONTATO</button>
           </div>
         </div>
       </div>
@@ -643,10 +648,10 @@
             <p class="title-app">Baixe o app <label class="label-theme">Seven Pro</label> gratuitamente</p>
             <p class="pt-4">
               <a href="" class="mr-8 col-12 col-md-auto">
-                <img src="./img/btn-apple-store.png" class="img-fluid btn-app py-4 py-md-0" alt="">
+                <img src="./img/btn-apple-store.webp" class="img-fluid btn-app py-4 py-md-0" alt="Apple Store">
               </a>
               <a href="" class="col-12 col-md-auto">
-                <img src="./img/btn-google-play.png" class="img-fluid btn-app py-4 py-md-0" alt="">
+                <img src="./img/btn-google-play.webp" class="img-fluid btn-app py-4 py-md-0" alt="Google Play">
               </a>
             </p>
           </div>
@@ -677,13 +682,13 @@
     <div class="row">
       <div class="col-1 d-none d-md-block"></div>
       <div class="col-12 col-md-auto py-4 py-md-0 align-self-center">
-        <img src="./img/globo.svg" class="img-fluid mr-48" alt="">
+        <img src="./img/globo.svg" class="img-fluid mr-48" alt="Globo Seven Pro">
       </div>
       <div class="col-12 col-md py-4 py-md-0 align-self-center">
         <p class="label-sub">INDÚSTRIA CRIATIVA</p>
         <p class="title-industria-criativa mt-16">Somos um <em>hub</em> de inovação, tecnologia e negócios</p>
         <p class="body-industria-criativa mt-24">Nós, na <label class="label-theme">Indústria Criativa</label>, oferecemos serviços educacionais e assessoria profissional a instituições públicas e privadas. Nossa meta é conectar pessoas, empresas e instituições por meio do conhecimento técnico-científico aplicado aos negócios.</p>
-        <a href="" class="link-chevron col-5 mt-48">Quem somos</a>
+        <a href="quem-somos" class="link-chevron col-5 mt-48">Quem somos</a>
         <a href="" class="link-chevron col-5 mt-48">Quero fazer parte</a>
       </div>
       <div class="col-1 d-none d-md-block"></div>
@@ -697,7 +702,7 @@
         <div class="h-100 d-flex">
           <div class="py-5 py-md-0 d-flex flex-column p-4">
             <div class="icon-round d-flex justify-content-center align-items-center">
-              <img src="./img/icons/move.svg" class="img-fluid" alt="">
+              <img src="./img/icons/move.svg" class="img-fluid" alt="O que nos move">
             </div>
             <label for="" class="label-card-icon mt-24">O que nos move</label>
             <p class="mt-16 mb-0">Lorem ipsum dolor sit amet consectetur. Dignissim at ac lacus at eu iaculis. Iaculis id ut interdum elit ac imperdiet feugiat proin ornare</p>
@@ -708,7 +713,7 @@
         <div class="h-100 d-flex">
           <div class="py-5 py-md-0 d-flex flex-column p-4">
             <div class="icon-round d-flex justify-content-center align-items-center">
-              <img src="./img/icons/config.svg" class="img-fluid" alt="">
+              <img src="./img/icons/config.svg" class="img-fluid" alt="O que fazemos">
             </div>
             <label for="" class="label-card-icon mt-24">O que fazemos</label>
             <p class="mt-16 mb-0">Lorem ipsum dolor sit amet consectetur. Dignissim at ac lacus at eu iaculis. Iaculis id ut interdum elit ac imperdiet feugiat proin ornare</p>
@@ -719,7 +724,7 @@
         <div class="h-100 d-flex">
           <div class="py-5 py-md-0 d-flex flex-column p-4">
             <div class="icon-round d-flex justify-content-center align-items-center">
-              <img src="./img/icons/proposito.svg" class="img-fluid" alt="">
+              <img src="./img/icons/proposito.svg" class="img-fluid" alt="Nosso propósito">
             </div>
             <label for="" class="label-card-icon mt-24">Nosso propósito</label>
             <p class="mt-16 mb-0">Lorem ipsum dolor sit amet consectetur. Dignissim at ac lacus at eu iaculis. Iaculis id ut interdum elit ac imperdiet feugiat proin ornare</p>
@@ -742,28 +747,28 @@
     <div class="row mt-56 d-flex justify-content-center">
       <div class="col-6 col-md-auto p-5 py-md-0 text-center d-flex flex-column align-items-center">
         <div class="icon-round d-flex justify-content-center align-items-center">
-          <img src="./img/icons/organizacoes.svg" class="img-fluid" alt="">
+          <img src="./img/icons/organizacoes.svg" class="img-fluid" alt="Organizações">
         </div>
         <label for="" class="label-card-icon text-center mt-32">250</label>
         <p class="mt-8 mx-2 mb-0">Organizações</p>
       </div>
       <div class="col-6 col-md-auto p-5 py-md-0 text-center d-flex flex-column align-items-center">
         <div class="icon-round d-flex justify-content-center align-items-center">
-          <img src="./img/icons/pessoas.svg" class="img-fluid" alt="">
+          <img src="./img/icons/pessoas.svg" class="img-fluid" alt="Pessoas envolvidas">
         </div>
         <label for="" class="label-card-icon text-center mt-32">250</label>
         <p class="mt-8 mx-2 mb-0">Pessoas envolvidas</p>
       </div>
       <div class="col-6 col-md-auto p-5 py-md-0 text-center d-flex flex-column align-items-center">
         <div class="icon-round d-flex justify-content-center align-items-center">
-          <img src="./img/icons/convenios.svg" class="img-fluid" alt="">
+          <img src="./img/icons/convenios.svg" class="img-fluid" alt="Convênios">
         </div>
         <label for="" class="label-card-icon text-center mt-32">250</label>
         <p class="mt-8 mx-2 mb-0">Convênios</p>
       </div>
       <div class="col-6 col-md-auto p-5 py-md-0 text-center d-flex flex-column align-items-center">
         <div class="icon-round d-flex justify-content-center align-items-center">
-          <img src="./img/icons/cases.svg" class="img-fluid" alt="">
+          <img src="./img/icons/cases.svg" class="img-fluid" alt="Cases de sucesso">
         </div>
         <label for="" class="label-card-icon text-center mt-32">250</label>
         <p class="mt-8 mx-2 mb-0">Cases de sucesso</p>
@@ -784,16 +789,16 @@
     </div>
     <div class="row mt-56 d-flex justify-content-center">
       <div class="col-12 col-md-auto p-5 text-center d-flex flex-column align-items-center">
-          <img src="./img/logo-ea.svg" class="img-fluid" alt="">
+          <img src="./img/logo-ea.svg" class="img-fluid" alt="Logo Educação Adventista">
       </div>
       <div class="col-12 col-md-auto p-5 text-center d-flex flex-column align-items-center">
-          <img src="./img/logo-ea.svg" class="img-fluid" alt="">
+          <img src="./img/logo-ea.svg" class="img-fluid" alt="Logo Educação Adventista">
       </div>
       <div class="col-12 col-md-auto p-5 text-center d-flex flex-column align-items-center">
-          <img src="./img/logo-ea.svg" class="img-fluid" alt="">
+          <img src="./img/logo-ea.svg" class="img-fluid" alt="Logo Educação Adventista">
       </div>
       <div class="col-12 col-md-auto p-5 text-center d-flex flex-column align-items-center">
-          <img src="./img/logo-ea.svg" class="img-fluid" alt="">
+          <img src="./img/logo-ea.svg" class="img-fluid" alt="Logo Educação Adventista">
       </div>
     </div>
   </div>
